@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="5.0.15" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.0.7" />
+    <PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Martian.Application\Martian.Application.csproj" />
+    <ProjectReference Include="..\Martian.Domain\Martian.Domain.csproj" />
+    <ProjectReference Include="..\Martian.Infrastructure\Martian.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
